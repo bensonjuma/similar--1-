@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+.container{
+    width: 90%;
+    background: #fff;
+    margin: 50px auto;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    box-shadow: 0 0 5px #ccc;
+}
+.texts textarea{
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin: 10px 2%;  */
+    max-width: 500px;
+}
+.texts textarea:focus{
+    outline: none;
+    border: 1px solid #333;
+}
+/* give different subtle backgrounds to textareas */
+.texts textarea:nth-child(1){
+    background: #ddeeff;
+}
+.texts textarea:nth-child(2){
+    background: #ffdddd;
+}
+.texts{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.input button{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+}
+.input button:hover{
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+    transition: .5s;
+}
+.highlight{
+    background: #ffff80;
+}
+.output-percentage{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+}
+/* all tables */
+table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table tr th{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+table tr td{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+/* add alternating colors to tr */
+table tr:nth-child(odd){
+    background: #eee;
+}
+/* add #ddeeff to 2nd table column */
+table tr td:nth-child(2){
+    background: #ddeeff;
+}
+table tr td:nth-child(3){
+    background: #ffdddd;
+}
